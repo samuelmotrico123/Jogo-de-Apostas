@@ -5,7 +5,7 @@ const gerador = function (min, max) {
 }
 let aleatorio = gerador(0,50);
 
-while(i<10){
+while(i<9){
     if(i == 0){
         gerador(0,50);
         //console.log(aleatorio); PARA TESTAR O PROGRAMA
@@ -29,6 +29,6 @@ while(i<10){
     }
 }
 
-if(i==10){
+if(i==9){
     console.log('SUAS VIDAS ACABARAM');
 }
